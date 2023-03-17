@@ -1,4 +1,4 @@
-# explane :
+# How is this work :
 
 The function PopulateVoices() is called, which populates the voices array with the available speech synthesis voices. 
 If the browser supports speech synthesis, speechSynthesis.onvoiceschanged event listener is triggered to populate the voices array on voice changes.
@@ -16,5 +16,5 @@ Each option element is created using document.createElement() to create an optio
 The new option tag is then populated with the name of the voice, as well as the specific lang and name details
 Once all the available voices are added to the dropdown menu, the previously selected option index value is set as the selected index using voiceList.selectedIndex = selectedIndex
 
-## Code pen :
+## CodePen :
 https://codepen.io/Mo61n/pen/ZEMRjew
